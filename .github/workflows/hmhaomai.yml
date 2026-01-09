@@ -3,27 +3,26 @@ name: hmhaomai
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 1/6 * * *'
+    - cron: '42 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: hmhaomai
         env:
-          jv9798: ${{ secrets.jv9798 }}
+          yce87400: ${{ secrets.yce87400 }}
         run: |
-          echo $jv9798 | jq -r .tpw9884 | /bin/bash
-          echo $ctw38 | jq -r .iu5590 | /bin/bash
-          echo $uvp015 | jq -r .dwse44320 | /bin/bash
-          echo $h95821 | jq -r .z678 | /bin/bash
-          echo $nzjh4056 | jq -r .fgw040 | /bin/bash
-          echo $gfog7545 | jq -r .qrbk6 | /bin/bash
-          echo $hwwxh796 | jq -r .tx7 | /bin/bash
-          echo $nun764 | jq -r .jx489 | /bin/bash
-          echo $fzhs03464 | jq -r .x865 | /bin/bash
-          echo $n290 | jq -r .xf2924 | /bin/bash
-          echo $pbydg5501 | jq -r .p18270 | /bin/bash
-          echo $fnnk10 | jq -r .vdh9643 | /bin/bash
+          echo $yce87400 | jq -r .ktpi480 | /bin/bash
+          echo $wlrwm3681 | jq -r .jlkm783 | /bin/bash
+          echo $nbbz82 | jq -r .i0 | /bin/bash
+          echo $wkw98 | jq -r .p0 | /bin/bash
+          echo $lz9352 | jq -r .qrbh7 | /bin/bash
+          echo $kv7458 | jq -r .s2 | /bin/bash
+          echo $udbn56 | jq -r .d144 | /bin/bash
+          echo $zn530 | jq -r .j4957 | /bin/bash
+          echo $diq0513 | jq -r .w581 | /bin/bash
+          echo $bd5 | jq -r .q743 | /bin/bash
+          echo $en5950 | jq -r .nzri27 | /bin/bash
 
